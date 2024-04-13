@@ -68,6 +68,10 @@
     flex-direction: column;
 }
 
+.justify-content-center {
+    justify-content: center;
+}
+
 .w-100 {
     width: 100%;
 }
@@ -76,15 +80,23 @@
     gap: 38px;
 }
 
+.pb-150 {
+    padding-bottom: 150px;
+}
+
 .cursor-pointer {
     cursor: pointer;
+}
+
+.bg-color-1 {
+    background-color: #FFF7F4;
 }
 
 .navbar {
     position: fixed;
     width: 100%;
     z-index: 3;
-    box-shadow: 0px 4px 35px 0px #00000014;
+    /* box-shadow: 0px 4px 35px 0px #00000014; */
     padding: 10px 0;
 }
 
@@ -149,7 +161,7 @@
 }
 
 .pt-208 {
-    padding-top: 208px;
+    padding-top: 150px;
 }
 
 .pt-18-30 {
@@ -173,4 +185,97 @@
     line-height: 24px;
     color: #7B7B7B;
     max-width: 560px;
+}
+
+.bottom-line {
+    border-bottom: 1px solid #FF5300;
+    width: 40px;
+}
+
+.pt-120 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.pt-8 {
+    padding-top: 8px;
+}
+
+.mt-7 {
+    margin-bottom: 7px;
+}
+
+.our-ser-font {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FF5300;
+}
+
+.what-font {
+    font-family: "Poppins", sans-serif;
+    font-size: 39.06px;
+    font-weight: 600;
+    line-height: 58.59px;
+    color: #373737;
+    text-align: center;
+}
+
+.box-font-no {
+    font-family: "Poppins", sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 73.2px;
+    color: #EFEFEF;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.design-font {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+    color: #373737;
+}
+
+.para-font-1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 12.8px;
+    font-weight: 300;
+    line-height: 19.2px;
+    color: #7B7B7B;
+}
+
+.para-font-2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #7B7B7B;
+    max-width: 325px;
+}
+
+.pt-15 {
+    padding-top: 15px;
+}
+
+.pt-5 {
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.box {
+    border-radius: 10px;
+    padding: 30px 20px 20px 20px;
+    box-shadow: 0px 1px 4px 0px #0000001A;
+}
+
+.box:hover {
+    box-shadow: 0px 0px 14px 13px rgba(0, 0, 0, 0.1);
 }
