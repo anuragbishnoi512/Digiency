@@ -454,6 +454,14 @@
     padding-top: 100px;
 }
 
+.mt-60 {
+    margin-top: 60px;
+}
+
+.pb-120 {
+    padding-bottom: 120px;
+}
+
 .test-txt-font {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
@@ -469,4 +477,92 @@
     line-height: 58.59px;
     color: #373737;
     text-align: center;
+}
+
+.para-txt-sl {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    /* text-align: left; */
+    color: #7B7B7B;
+    max-width: 320px;
+}
+
+.phillip-txt {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    /* text-align: left; */
+    color: #FF5300;
+}
+
+.sl-type-txt {
+    font-family: "Poppins", sans-serif;
+    font-size: 12.8px;
+    font-weight: 300;
+    line-height: 19.2px;
+    /* text-align: left; */
+    color: #7B7B7B;
+}
+
+.sl-box {
+    padding: 25px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.slick-slide {
+    width: 370px !important;
+}
+
+/* .slick-dots li button:before{
+    color: transparent !important;
+} */
+.slick-track {
+    display: flex !important;
+    gap: 15px !important;
+}
+
+.prev {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid #F53838;
+    background: white;
+    cursor: pointer;
+    transition: all 200ms linear;
+    bottom: 38%;
+    left: 6%;
+}
+
+.next {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid #F53838;
+    background: white;
+    cursor: pointer;
+    transition: all 200ms linear;
+    bottom: 38%;
+    right: 6%;
+}
+
+.next:hover {
+    background-color: #F53838;
+
+}
+
+.next:hover path {
+    fill: white;
+}
+
+.prev:hover {
+    background-color: #F53838;
+
+}
+
+.prev:hover path {
+    fill: white;
 }
