@@ -44,6 +44,12 @@
     padding-right: 12px;
 }
 
+.col-3 {
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 .d-flex {
     display: flex;
 }
@@ -462,6 +468,10 @@
     padding-bottom: 120px;
 }
 
+.mb-15 {
+    margin-bottom: 20px;
+}
+
 .test-txt-font {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
@@ -529,7 +539,7 @@
     height: 60px;
     width: 60px;
     border-radius: 50%;
-    border: 2px solid #F53838;
+    border: 2px solid #FF5300;
     background: white;
     cursor: pointer;
     transition: all 200ms linear;
@@ -541,7 +551,7 @@
     height: 60px;
     width: 60px;
     border-radius: 50%;
-    border: 2px solid #F53838;
+    border: 2px solid #FF5300;
     background: white;
     cursor: pointer;
     transition: all 200ms linear;
@@ -550,7 +560,7 @@
 }
 
 .next:hover {
-    background-color: #F53838;
+    background-color: #FF5300;
 
 }
 
@@ -559,10 +569,88 @@
 }
 
 .prev:hover {
-    background-color: #F53838;
+    background-color: #FF5300;
 
 }
 
 .prev:hover path {
     fill: white;
+}
+
+#myBtn {
+    position: fixed;
+    bottom: 2%;
+    right: 1%;
+    z-index: 4;
+    width: 50px;
+    display: none;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #FF5300;
+    animation: myBtn 5s infinite;
+}
+
+#myBtn:hover {
+    background-color: #FF5300;
+}
+
+#myBtn:hover path {
+    fill: white;
+}
+
+.sec-6-txt {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #FF5300;
+}
+
+.sec-6-head-txt {
+    font-family: "Poppins", sans-serif;
+    font-size: 39.06px;
+    font-weight: 600;
+    line-height: 58.59px;
+    text-align: left;
+    color: #373737;
+}
+
+.sec-6-para-font {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #7B7B7B;
+}
+
+.sec-6-numb-font {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+    text-align: center;
+    color: #FF5300;
+}
+
+.sec-6-numb-txt {
+    font-family: "Poppins", sans-serif;
+    font-size: 12.8px;
+    font-weight: 300;
+    line-height: 19.2px;
+    text-align: center;
+    color: #373737;
+    max-width: 86px;
+}
+
+.box-2 {
+    padding: 15px;
+    box-shadow: 0px 1px 4px 0px #0000001A;
+}
+
+.box-2:hover {
+    box-shadow: 0px 0px 14px 13px rgba(0, 0, 0, 0.1);
 }
