@@ -407,9 +407,14 @@
     color: #7B7B7B;
 }
 
+.bar-card:hover .bar-card-txt {
+    color: #ffffff;
+}
+
 .bar-card:hover {
     background-color: #FF5300;
     border-radius: 10px;
+
 }
 
 .bar-card {
@@ -419,6 +424,9 @@
 }
 
 
+.pb-20 {
+    padding-bottom: 20px;
+}
 
 .h-100 {
     height: 100%;
@@ -552,42 +560,42 @@
     height: 60px;
     width: 60px;
     border-radius: 50%;
-    border: 2px solid #FF5300;
-    background: white;
+    border: 2px solid #373737;
+    background: transparent;
     cursor: pointer;
     transition: all 200ms linear;
-    bottom: 38%;
-    left: 6%;
+    bottom: 60%;
+    right: 100%;
 }
 
 .next {
     height: 60px;
     width: 60px;
     border-radius: 50%;
-    border: 2px solid #FF5300;
-    background: white;
+    border: 2px solid #373737;
+    background: transparent;
     cursor: pointer;
     transition: all 200ms linear;
-    bottom: 38%;
-    right: 6%;
+    bottom: 60%;
+    left: 100%;
 }
 
 .next:hover {
-    background-color: #FF5300;
+    border: 2px solid #FF5300;
 
 }
 
 .next:hover path {
-    fill: white;
+    fill: #FF5300;
 }
 
 .prev:hover {
-    background-color: #FF5300;
+    border: 2px solid #FF5300;
 
 }
 
 .prev:hover path {
-    fill: white;
+    fill: #FF5300;
 }
 
 #myBtn {
@@ -809,7 +817,7 @@
 }
 
 .subscribe-now {
-    padding: 15px 33px 15px 39px;
+    padding: 15px 33px 15px 33px;
     background-color: #FF5300;
     color: #ffffff;
     border: 1px solid #FF5300;
@@ -839,14 +847,14 @@
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    padding: 20px;
     border-radius: 5px;
 }
 
 .email-box {
-    padding: 10px;
+    padding: 5px 5px 5px 25px;
     background-color: #ffffff;
     border-radius: 5px;
+    width: 642px;
 }
 
 .flex-direction-row {
